@@ -1,3 +1,4 @@
+/* regole generali */
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +7,18 @@
 section,header,footer {
     padding: 0 2%;
 }
-
+.sign-button {
+  border:solid #6d29ff 1px;
+  border-radius: 5px;
+  color: #6d29ff;
+  padding: 2px;
+}
 main [class*="col-" ],footer [class*="col-" ] {
   /* debug */
   border: black 1px solid;
   height: 50px;
 }
+
 /* header */
 header {
   height: 60px;
@@ -24,12 +31,45 @@ header {
 header img {
   width: 150px;
   height: auto;
-  padding-top: 10px;
+  padding-top: 18px;
 }
+/* navbar */
+header nav li{
+  display: inline-block;
+  line-height: 60px;
+  padding-left: 7px;
+}
+header nav li a {
+  text-decoration: none;
+  color:hsl(221,93%,16%);
+}
+.navbar {
+  text-align: right;
+}
+
+/* hamburger */
+.hamburger {
+ display:none;
+}
+
+@media screen and (max-width:992px) {
+  .navbar {
+    display: none;
+  }
+  .hamburger {
+    display:block;
+    text-align: right;
+    line-height: 60px;
+    color:hsl(221,93%,16%);
+  }
+}
+
 /* main */
 main {
   margin-top: 60px;
 }
+/* jumbotron */
+
 main section {
   /* debug */
   background-color: green;
