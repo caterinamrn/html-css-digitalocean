@@ -6,35 +6,30 @@
 section,header,footer {
     padding: 0 2%;
 }
-.container {
 
-  /* debug */
-  height: 100px;
-  background-color: pink;
-  border:solid 2px violet;
-}
-
-[class*="col-" ] {
+main [class*="col-" ],footer [class*="col-" ] {
   /* debug */
   border: black 1px solid;
   height: 50px;
 }
 /* header */
 header {
-  height: 70px;
-  /* position: fixed;
+  height: 60px;
+  position: fixed;
+  top:0;
   z-index: 90;
-  width: 100%; */
-  /* debug */
-  background-color: blue;
-
+  width: 100%;
+  background-color: white;
 }
 header img {
-  width: 160px;
+  width: 150px;
   height: auto;
-  padding-top:15px;
+  padding-top: 10px;
 }
 /* main */
+main {
+  margin-top: 60px;
+}
 main section {
   /* debug */
   background-color: green;
@@ -45,5 +40,5 @@ main section {
 footer {
 /* debug */
 background-color: red;
-height: 100px
+height: 100px;
 }
