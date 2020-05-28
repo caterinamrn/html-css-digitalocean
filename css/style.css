@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section,header,footer {
+    padding: 0 2%;
+}
+.container {
+
+  /* debug */
+  height: 100px;
+  background-color: pink;
+  border:solid 2px violet;
+}
+
+[class*="col-" ] {
+  /* debug */
+  border: black 1px solid;
+  height: 50px;
+}
+/* header */
+header {
+  height: 70px;
+  /* position: fixed;
+  z-index: 90;
+  width: 100%; */
+  /* debug */
+  background-color: blue;
+
+}
+header img {
+  width: 160px;
+  height: auto;
+  padding-top:15px;
+}
+/* main */
+main section {
+  /* debug */
+  background-color: green;
+  height: 200px;
+  border: white 2px solid;
+}
+/* footer */
+footer {
+/* debug */
+background-color: red;
+height: 100px
+}
