@@ -3,17 +3,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+  line-height: 1.2;
 }
 section,header,footer {
     padding: 0 2%;
 }
+main section, footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 .sign-button {
-  border:solid #6d29ff 1px;
+  border:solid #006aff 1px;
   border-radius: 5px;
-  color: #6d29ff;
+  color: #006aff;
   padding: 2px;
 }
-main [class*="col-" ],footer [class*="col-" ] {
+.blue {
+  color:#0069ff;
+  text-decoration: none;
+}
+footer [class*="col-" ] {
   /* debug */
   border: black 1px solid;
   height: 50px;
@@ -51,7 +61,9 @@ header nav li a {
 .hamburger {
  display:none;
 }
-
+.hamburger {
+  color:
+}
 @media screen and (max-width:992px) {
   .navbar {
     display: none;
@@ -69,12 +81,70 @@ main {
   margin-top: 60px;
 }
 /* jumbotron */
+#jumbotron {
+  background-image: url(../img/jumbo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
 
-main section {
-  /* debug */
-  background-color: green;
-  height: 200px;
-  border: white 2px solid;
+h1 {
+  font-size: 58px;
+  color: white;
+  padding-bottom: 20px;
+}
+.card h3{
+  font-size:27px;
+  padding-bottom: 10px;
+}
+#jumbotron .row > div:first-child p {
+  font-size: 24px;
+  color: rgba(255,255,255,0.8);
+}
+#jumbotron .card {
+background-color: white;
+border-radius: 5px;
+text-align: center;
+padding: 20px 10px 15px;
+margin-top: 10px;
+}
+.card input {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 40px;
+  border: solid 1px #e5e8ed;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.card .account {
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color:#3b88ed;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.card .sign-google {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #5b6987;
+  box-shadow: 5px 5px 15px  #e5e8ed;
+  margin-bottom: 10px;
+}
+.card .sign-google img{
+  float: left;
+  width: 20px;
+  height: auto;
+}
+.card p {
+  color: #031b4e;
+  text-align: center;
+}
+.card p a {
+  color:#0069ff;
 }
 /* footer */
 footer {
