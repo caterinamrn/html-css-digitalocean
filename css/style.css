@@ -146,6 +146,28 @@ margin-top: 10px;
 .card p a {
   color:#0069ff;
 }
+
+/* secondas sezione main */
+#businesses {
+  background-color: #f3f5f9;
+}
+#businesses h5 {
+  text-align: center;
+  color: #5b6987;
+  font-size:17px;
+}
+#businesses img {
+  max-width: 95%;
+  height: 140px;
+}
+#businesses .row > div {
+  text-align: center;
+}
+#businesses a {
+  display:block;
+  text-align: center;
+  margin-top: 20px;
+}
 /* footer */
 footer {
 /* debug */
