@@ -258,6 +258,36 @@ margin-top: 10px;
   display: block;
     margin-bottom: 20px
 }
+/* sesta section della main */
+#custumers {
+  background-color: rgb(0, 105, 255);
+}
+#custumers h2 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+/* ottava sezione main */
+#get-started {
+  background-color: rgb(0, 105, 255);
+  padding: 80px 0;
+}
+#get-started h2 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#get-started .sign-button {
+  display: block;
+  text-align: center;
+  background-color: white;
+  font-size: 25px;
+  width: 255px;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
 /* footer */
 footer {
 /* debug */
