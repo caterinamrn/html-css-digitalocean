@@ -18,6 +18,7 @@ main section, footer {
   border-radius: 5px;
   color: #006aff;
   padding: 2px;
+  text-decoration: none;
 }
 .blue {
   color:#0069ff;
@@ -203,6 +204,39 @@ margin-top: 10px;
   font-size: 20px;
   color: #5b6987;
   margin-bottom: 20px;
+}
+/* quarta sezione della main, carousel */
+.carousel {
+  background-color: #f3f5f9;
+  padding-bottom: 50px;
+}
+.carousel h2{
+  color: #031b4e;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.carousel p {
+  color: #5b6987;
+  font-size: 20px;
+  text-align: center;
+}
+.carousel .contenuti {
+  display: block;
+  width: 75%;
+  margin: 100px auto 20px;
+  position: relative;
+}
+/* .carousel .fa-angle-left{
+  color: #5b6987;
+  font-size: 30px;
+  position: absolute;
+  top:50%;
+  left:50%;
+} */
+.carousel .scorrimento {
+  text-align: center;
+  margin: 80px 0;
 }
 /* footer */
 footer {
