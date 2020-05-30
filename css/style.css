@@ -24,11 +24,6 @@ main section, footer {
   color:#0069ff;
   text-decoration: none;
 }
-footer [class*="col-" ] {
-  /* debug */
-  border: black 1px solid;
-  height: 50px;
-}
 
 /* header */
 header {
@@ -271,11 +266,15 @@ margin-top: 10px;
 .finestra.contenuti {
   background-color: white;
   padding: 30px 50px;
+  text-align: center;
 }
 .finestra.contenuti a {
   display: block;
   text-align: center;
   padding: 30px 0;
+}
+.contenuti.finestra img{
+  margin: 50px 0;
 }
 /* ottava sezione main */
 #get-started {
@@ -300,7 +299,25 @@ margin-top: 10px;
 
 /* footer */
 footer {
-/* debug */
-background-color: red;
-height: 100px;
+  background-color: hsl(220,95%,8%);
+  color: white;
+  font-size: 14px;
+}
+footer h5 {
+  font-size: 16px;
+  padding: 10px 0;
+}
+footer span {
+  display: block;
+  color: hsla(0,0%,100%,0.5);
+}
+footer a {
+  color: hsla(0,0%,100%,0.5);
+  text-decoration: none;
+}
+footer  ul li {
+  list-style: none;
+}
+footer img {
+  padding: 15px 6px 6px 0;
 }
