@@ -94,15 +94,14 @@ header nav li:hover a {
   .dropdown li {
     display: block;
     text-align: left;
-    padding: 0 10px;
     margin: 0 10px;
+    padding: 0 10px;
     border-bottom: 1px solid hsl(218,18%,91%);
   }
   .dropdown li a {
     color: hsl(221,93%,16%);
     font-size: 18px;
-  }
-
+  } 
 }
 
 /* main */
