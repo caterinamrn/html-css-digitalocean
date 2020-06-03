@@ -101,7 +101,7 @@ header nav li:hover a {
   .dropdown li a {
     color: hsl(221,93%,16%);
     font-size: 18px;
-  } 
+  }
 }
 
 /* main */
@@ -129,12 +129,17 @@ h1 {
   font-size: 24px;
   color: rgba(255,255,255,0.8);
 }
+#jumbotron p {
+  margin-right: 10px;
+}
 #jumbotron .card {
 background-color: white;
 border-radius: 5px;
 text-align: center;
 padding: 20px 10px 15px;
-margin-top: 10px;
+margin: 10px auto 0;
+max-width: 400px;
+
 }
 .card input {
   width: 100%;
